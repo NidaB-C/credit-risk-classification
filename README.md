@@ -15,9 +15,9 @@ This project focuses on predicting credit risk using machine learning models. Th
 
 To run this project, you will need to install Python and the necessary libraries:
 
-\```bash
+```bash
 pip install pandas scikit-learn imbalanced-learn 
-\```
+```
 
 ## Modeling
 
