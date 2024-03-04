@@ -14,12 +14,12 @@ The machine learning process included:
 
 The performance of two machine learning models was assessed:
 
-* Machine Learning Model 1: Original Logistic Regression
+* **Machine Learning Model 1**: Original Logistic Regression
   * Balanced Accuracy Score: 95.204%
   * Precision: Healthy Loan (0) - 100%, High-Risk Loan (1) - 86%
   * Recall: Healthy Loan (0) - 100%, High-Risk Loan (1) - 90%
   
-* Machine Learning Model 2: Logistic Regression with Resampled Training Data
+* **Machine Learning Model 2**: Logistic Regression with Resampled Training Data
   * Balanced Accuracy Score: 99.368%
   * Precision: Healthy Loan (0) - 100%, High-Risk Loan (1) - 84%
   * Recall: Healthy Loan (0) - 99%, High-Risk Loan (1) - 99%
@@ -28,4 +28,4 @@ The performance of two machine learning models was assessed:
 
 The Logistic Regression model with resampled training data (Model 2) outperformed the original model, particularly in balancing the prediction accuracy for both classes, as evidenced by the higher balanced accuracy score. While both models show high precision and recall, the resampled model has a significant edge in identifying high-risk loans, which is crucial for credit risk assessment.
 
-**Recommendation** : Model 2, the Logistic Regression with resampled training data, should be used for credit risk prediction. This model's ability to better identify high-risk loans can be particularly valuable for financial institutions looking to minimize risk.
+**Recommendation**: Model 2, the Logistic Regression with resampled training data, should be used for credit risk prediction. This model's ability to better identify high-risk loans can be particularly valuable for financial institutions looking to minimize risk.
